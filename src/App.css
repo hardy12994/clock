@@ -1,0 +1,39 @@
+ .clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.hand {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: bottom center;
+  background-color: black;
+}
+
+.second-hand {
+  width: 2px;
+  height: 80px;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 60px;
+}
+
+.time-input {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+}
